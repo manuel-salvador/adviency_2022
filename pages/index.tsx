@@ -33,7 +33,7 @@ export default function Home() {
         <div className="w-full border rounded p-4">
           <ul className="">
             {allDays.map((day) => (
-              <li className="my-2">
+              <li className="my-2" key={day.day}>
                 <Link
                   href={`/day${day.day}`}
                   className="flex gap-2 text-lg hover:text-cyan-500 transition-colors"
@@ -68,5 +68,10 @@ const allDays: { day: number; description: string }[] = [
     day: 3,
     description:
       'Colocar un formulario con un input para escribir nuestro regalo y un botón para agregarlo a nuestra lista, todavía no los podemos borrar, pero... es navidad! Por que querríamos borrar regalos?',
+  },
+  {
+    day: 4,
+    description:
+      'Agregar un botón de eliminar a cada elemento para poder borrarlos individualmente.',
   },
 ];
