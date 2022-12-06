@@ -49,7 +49,7 @@ export default function Home() {
       </main>
 
       <footer className="py-8 text-center border-t-2 border-slate-700">
-        <p>Adviency - Manuel Salvador </p>
+        <p>Adviency 2022 - Manuel Salvador </p>
       </footer>
     </div>
   );
@@ -77,5 +77,10 @@ const allDays: { day: number; description: string }[] = [
   {
     day: 5,
     description: 'Agregar un botón para poder eliminar toda la lista completa.',
+  },
+  {
+    day: 6,
+    description:
+      'Nuestra aplicación no se ve muy bien cuando no hay regalos, agreguemos un mensaje alentando a agregar regalos cuando no haya ninguno!',
   },
 ];
