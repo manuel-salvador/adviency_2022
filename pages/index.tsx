@@ -74,4 +74,8 @@ const allDays: { day: number; description: string }[] = [
     description:
       'Agregar un botón de eliminar a cada elemento para poder borrarlos individualmente.',
   },
+  {
+    day: 5,
+    description: 'Agregar un botón para poder eliminar toda la lista completa.',
+  },
 ];
