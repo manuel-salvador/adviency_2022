@@ -83,4 +83,9 @@ const allDays: { day: number; description: string }[] = [
     description:
       'Nuestra aplicación no se ve muy bien cuando no hay regalos, agreguemos un mensaje alentando a agregar regalos cuando no haya ninguno!',
   },
+  {
+    day: 7,
+    description:
+      'Tuvimos algunos reportes de regalos vacíos o repetidos, asegurmosnos que la gente solo pueda agregar un regalo si escribió algo y si ese regalo no está ya en la lista!',
+  },
 ];
